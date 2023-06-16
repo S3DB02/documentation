@@ -1,0 +1,116 @@
+# MangaMonkey User API Microservice Testing Document
+
+Table of Contents
+
+1. [Introduction](#introduction)
+2. [Testing Tools](#testing-tools)
+3. [Backend Testing](#backend-testing)
+    - [Testing the Manga List Route](#testing-the-manga-list-route)
+    - [Testing the User Routes](#testing-the-user-routes)
+
+## Introduction
+
+This document outlines the backend testing strategy implemented in the MangaMonkey user API microservice. Testing is a crucial aspect of software development to ensure code reliability, maintainability, and overall quality.
+
+## Testing Tools
+
+The backend tests use two main testing tools:
+
+- **Jest**: A JavaScript testing framework that provides features such as a simple API, detailed error messages, and mock function APIs.
+
+- **Supertest**: A library for testing Node.js HTTP servers. It provides a high-level abstraction for testing HTTP and allows for assertions to be made about response status codes, headers, and body data.
+
+## Backend Testing
+
+The backend tests involve testing the Manga List route and the User routes.
+
+### Testing the Manga List Route
+
+The Manga List route tests involve the following steps:
+
+```javascript
+const express = require('express');
+const supertest = require('supertest');
+const MangaList = require('../models/MangaList');
+const router = require('../routes/mangalistRoutes');
+
+jest.mock('../models/MangaList'); // mock the model
+
+const app = express();
+app.use(express.json());
+app.use('/', router);
+const request = supertest(app);
+
+describe("Post MangaList", () => {
+  it('should return a status 201 and create a new manga list entry', async () => {
+    const mockMangaListEntry = {
+      user_id: "user1",
+      manga_id: "manga1",
+      status: "reading",
+      current_chapter: "1"
+    };
+
+    const reqBody = {
+      user_id: "user1",
+      manga_id: "manga1",
+      status: "reading",
+      current_chapter: "1"
+    };
+
+    MangaList.findOne.mockResolvedValue(null); // assume the manga is not in the list
+    MangaList.create.mockResolvedValue(mockMangaListEntry); // mock the create function
+
+    const response = await request.post('/add').send(reqBody);
+
+    expect(response.statusCode).toBe(201);
+    expect(response.body).toEqual(mockMangaListEntry);
+  });
+
+  afterEach(() => {
+    // Cleaning up the mess left behind the previous test
+    MangaList.findOne.mockClear();
+    MangaList.create.mockClear();
+  });
+});
+```
+
+### Testing the User Routes
+
+The User route tests follow a similar pattern:
+
+```javascript
+Copy code
+const request = require('supertest');
+const express = require('express');
+const userRoutes = require('../routes/userRoutes');
+const app = express();
+
+app.use(express.json());
+app.use('/user', userRoutes);
+
+// Mock the User model
+jest.mock('../models/Users', () => {
+  return {
+    findOne: jest.fn(),
+    create: jest.fn(),
+  };
+});
+const User = require('../models/Users');
+
+describe('POST /user/create', () => {
+  it('should create a new user and return a 201 status code', async () => {
+    const newUserData = {
+      sub: 'sub1',
+      name: 'name1',
+      picture: 'picture1',
+    };
+    User.findOne.mockResolvedValue(null);
+    User.create.mockResolvedValue(newUserData);
+
+    const response = await request(app)
+      .post('/user/create')
+      .send(newUserData);
+
+    expect(response.statusCode).toBe(201);
+    expect(response.body).toEqual(newUserData);
+  });
