@@ -54,7 +54,7 @@ The proficiency rating I will give myself are as they are described on [source] 
 "You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
@@ -67,7 +67,7 @@ TBD
 "Use software tooling and methodology that continuously monitors and improve the software quality during software development."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
@@ -80,7 +80,7 @@ TBD
 "Choose and implement the most suitable agile software development method for your software project."
 
 **Proficiency Rating:**  
-TBD
+5
 
 **Explanation:**  
 TBD
@@ -93,7 +93,7 @@ TBD
 "Design and implement a (semi)automated software release process that matches the needs of the project context."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
@@ -106,7 +106,7 @@ TBD
 "Recognize and take into account cultural differences between project stakeholders and ethical aspects in software development."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
@@ -119,7 +119,7 @@ TBD
 "Analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
@@ -132,7 +132,7 @@ TBD
 "Understand the software development and management practices in the context of the business processes of an organization."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
@@ -145,7 +145,7 @@ TBD
 "Demonstrate professional and ethical behavior in a multicultural and multidisciplinary environment."
 
 **Proficiency Rating:**  
-TBD
+4
 
 **Explanation:**  
 TBD
