@@ -1,0 +1,222 @@
+# The Use of Brainwaves with Artificial Inteligence
+by Uros Aron Colovic
+
+## Table of Contents
+1. [Introduction](#Introduction)
+2. [Background](#Background)
+3. [Methodology](#Methodology)
+4. [Literature Review](#Literature-Review)
+   1. [Decoding Visual Attention from EEG Signals for Improving the Brain-Computer Interface](#Decoding-Visual-Attention-from-EEG-Signals-for-Improving-the-Brain-Computer-Interface)
+   2. [A Consumer BCI for Automated Music Evaluation Within a Popular On-Demand Music Streaming Service](#spotify)
+   2. [SaS-BCI: a new strategy to predict image memorability and use mental imagery](#SaS-BCI:-a-new-strategy-to-predict-image-memorability-and-use-mental-imagery)
+   3. [Controlling a Robotic Arm by Brainwaves and Eye Movement](#Controlling-a-Robotic-Arm-by-Brainwaves-and-Eye-Movement)
+   4. [Brain fingerprinting field studies comparing P300-MERMER and P300 brainwave responses in the detection of concealed information](#Brain-fingerprinting-field-studies-comparing-P300-MERMER-and-P300-brainwave-responses-in-the-detection-of-concealed-information)
+5. [Discussion](#Discussion)
+6. [Conclusion](#Conclusion)
+7. [References](#References)
+
+---
+
+## <a name="Introduction"></a>1. Introduction
+
+The interplay between brainwaves and artificial intelligence (AI) is a rapidly emerging field of study with vast potential implications for numerous sectors. From healthcare to security, to criminal justice, this intersection of neuroscience and AI holds promise for revolutionary breakthroughs. This research paper aims to explore the current state of the art in this area, identify key themes, and suggest future directions of study.
+
+The primary research question driving this study is: How are brainwaves and AI being utilized in current research and what are the potential implications of these applications? To answer this question, this paper will delve into recent research that has employed brainwaves and AI in innovative ways, with an objective to identify overarching themes, evaluate the potential of these technologies, and highlight areas requiring further exploration.
+
+This paper is structured as follows:
+
+First, a background section will provide an overview of key concepts related to brainwaves and AI, setting the stage for the subsequent discussions.
+
+Second, the methodology section will outline the search strategy and methods employed to analyze the selected studies.
+
+This is followed by a review of the literature, which forms the bulk of the paper, presenting the findings from a range of recent research studies in a coherent and synthesized manner.
+
+The discussion section will then draw together the key findings, relate them back to the research question, and propose areas for future study.
+
+Finally, the conclusion will summarize the main points of the paper, restate the importance of the research question, and discuss the broader implications of the findings.
+
+By providing a comprehensive review and analysis of current research at the intersection of brainwaves and AI, this paper aims to contribute to our understanding of this burgeoning field and its potential impact on various sectors of society.
+
+## <a name="Background"></a>2. Background
+
+Brainwaves are the patterns of electrical activity that occur in the brain. They are produced by the synchronized electrical pulses from masses of neurons communicating with each other. Brainwaves are detected using an electroencephalogram (EEG), a device that measures and records these electrical activities by detecting them with electrodes placed on the scalp.
+
+They are distinguished by their different frequency ranges. The frequency is measured in cycles, the number of times neurons are firing per second. Brainwaves also vary in amplitude with lower amplitudes as they speed up. The higher frequency the wave the more alert and "awake" you are. There are several types of brainwaves, which are typically divided into five bands: Delta, Theta, Alpha, Beta, and Gamma.
+
+- **Delta waves (0.5 - 4 Hz):** These are the slowest brain waves and are typically associated with deep, dreamless sleep and unconscious processes. In adults, they're usually only produced during the deepest stages of sleep. An increase in delta waves outside of sleep can be a sign of brain injury or dysfunction.
+
+- **Theta waves (4 - 8 Hz):** These brainwaves occur during states of light sleep and deep relaxation, often associated with daydreaming or the first stage of sleep. In a waking state, they are connected with creativity, intuition, emotions, and reflection. Increased theta waves can also be associated with activities that require deep concentration.
+
+- **Alpha waves (8 - 13 Hz):** Alpha waves are typically associated with relaxed, calm, and lucid mental states but not focused on the outside world. They're often seen when the eyes are closed and during practices like mindfulness or meditation. They can serve as a bridge between the conscious and the subconscious mind.
+
+- **Beta waves (13 - 30 Hz):** These brainwaves are associated with a state of wakefulness, attention, and normal consciousness. They're involved in logical thinking, problem-solving, and decision-making. High levels of beta waves can indicate excitement, stress, or anxiety.
+
+- **Gamma waves (30 - 100 Hz):** Gamma waves are the fastest brain waves and are associated with higher mental activity, including perception, problem-solving, and cognition. They're also linked to the processing of information from different brain areas. Some studies suggest that increased gamma wave activity may be associated with meditative states and heightened focus.
+
+The integration of neuroscience and computer science has opened new avenues for brain-computer interfaces (BCI), systems that allow direct brain control of a computer. There are several prominent branches of AI involved in this research, including Machine Learning (ML), Natural Language Processing (NLP), Computer Vision, and Robotics.
+
+- **Machine Learning (ML)**, the most prevalent branch of AI, involves creating algorithms that learn from and make decisions based on data. For instance, deep learning (DL), a subset of ML, has been instrumental in interpreting EEG data for diagnosing neurological disorders.
+
+- **Natural Language Processing (NLP)** focuses on enabling computers to understand, interpret, and generate human language. It has wide applications in creating user-friendly interfaces for BCIs, enhancing the interaction between the user and the device.
+
+- **Computer Vision** deals with how computers can gain high-level understanding from digital images or videos. It has potential in analyzing visual data from EEGs, potentially improving the diagnosis and monitoring of neurological conditions.
+
+- **Robotics**, another branch of AI, involves creating robots that interact with their surroundings. It has potential applications in developing advanced prosthetics controlled directly by the brain.
+
+AI, particularly Machine Learning and Deep Learning, have been used in the analysis and interpretation of EEG data. This could be for various purposes such as diagnosing neurological disorders, BCIs, mental state monitoring, and even neurofeedback training.
+
+## <a name="Literature-Review"></a>3. Methodology
+
+This research was conducted through a review of literature on the application of artificial intelligence in relation to brainwaves.
+
+The databases used for the search are SagePub, ScienceDaily, AINews, SpringerLink, YouTube videos and ChatGPT. These databases were selected due to their wide coverage in the fields of neuroscience, computer science, and artificial intelligence.
+
+The search terms used were combinations and variations of "ai news", "electroencephalogram ai", the combination of a AI branch folllowed by "and brain frequency". These terms were chosen to cover the broad applications of AI in EEG analysis.
+
+The review focused on studies published between 2010 and 2023 to ensure that the information was relevant.
+
+Studies were included if they were written in English, involved the use of AI in analyzing EEG data. Studies were excluded if they did not involve the use of AI, did not use EEG data, or were not available in full text.
+
+The contents of each study is summarized in an easy to understand manner. Some of which may be synthesized with the goal of providing a more holistic view on the topic.
+	
+## <a name="Literature-Review"></a>4. Review of the Literature
+
+### <a name="Decoding-Visual-Attention-from-EEG-Signals-for-Improving-the-Brain-Computer-Interface"></a>4.1 Research Title: Augmented Cognition via Brainwave Entrainment in Virtual Reality: An Open, Integrated Brain Augmentation in a Neuroscience System Approach.
+
+**Introduction:** This research titled "Augmented Cognition via Brainwave Entrainment in Virtual Reality: An Open, Integrated Brain Augmentation in a Neuroscience System Approach" delves into the potential application of visual attention decoding in enhancing the performance of Brain-Computer Interfaces (BCIs). 
+
+**Researchers:** Emanuele Argento, George Papagiannakis, Eva Baka, Michail Maniadakis, Panos Trahanias, Michael Sfakianakis & Ioannis Nestoros 
+
+**Purpose of the Study:** The study aimed to explore the potential of augmented cognition and learning through immersive virtual reality (VR) technology. By integrating VR head-mounted displays with the Emotiv EPOC EEG headset, the researchers developed an open neuro- and biofeedback system. This system is designed to accelerate content presentation in VR while lowering brain frequency at the alpha level, with the goal of improving content retention. The researchers sought to prove that fast learning and skills enhancement in VR is feasible under certain conditions and has practical potential.
+
+**Methodology:** The study involved 25 test subjects who were divided into five groups. The subjects underwent a complex 3D maze test in a VR environment, which served as an interactive medium. The maze was designed with two landmarks, one at the entrance and one at the exit. Learning effectiveness and task performance were evaluated by the time needed to reach the first landmark and the time difference between reaching the first landmark and the exit. The study also applied different learning procedures and brain stimulation methods, such as rhythmic brain stimulation through headphones, to the subjects.
+
+**Findings:** The results showed that those exposed to the VR-induced entrainment learning technology performed significantly better, particularly in aspects of learning time, complex navigational skills, decision-making abilities, and orientation ability. The detailed numerical results and EEG data were not available on the webpage.
+
+**Implications:** The study suggests that VR-enabled technologies combined with brainwave entrainment could potentially provide a more permanent enhancement to human performance, which could be valuable in fields requiring quick adaptation and accelerated learning. The researchers also indicated the potential to establish a new research area of augmented cognitive neuro- and biofeedback, where adaptive, fast learning VR systems can be employed for permanent and independent human cognitive enhancement.
+
+**Thematic Analysis:** The overarching theme of this study is the intersection of neuroscience, computer science, engineering, psychology, and education to create technology intended to enhance human skills and learning potential. The study leverages VR technology and EEG to augment cognition and enhance learning through an immersive interface, accelerated content presentation, and real-time cognitive state detection and manipulation.
+
+**Gaps and Future Research:** While the study provides promising results, there are still unanswered questions and potential areas for future research. For example, the study doesn't provide detailed numerical results or EEG data, so a more detailed analysis of the results could be beneficial. In addition, it would be interesting to investigate the long-term effects of this technology and its effectiveness across different content domains and age groups.
+
+**Conclusion:** The study "Augmented Cognition via Brainwave Entrainment in Virtual Reality: An Open, Integrated Brain Augmentation in a Neuroscience System Approach" provides a compelling exploration of the potential of VR and EEG for enhancing human cognition and learning. The study's results suggest that this technology can lead to significant improvements in learning time and task performance. This opens up promising new possibilities for the future of learning and cognitive enhancement.
+
+---
+### <a name="spotify"></a>4.2 Research Title: A Consumer BCI for Automated Music Evaluation Within a Popular On-Demand Music Streaming Service
+
+**Introduction:** The purpose of this literature review is to understand the development of a Brain-Computer Interface (BCI) for automated music evaluation using a popular on-demand music streaming service, and its relevance to the field of neurotechnology and music recommendation systems.
+
+**Researchers:** Fotis Kalaganis, Dimitrios A. Adamos & Nikos Laskaris 
+
+**Purpose of the Study:** The study aimed to develop a BCI system that uses electroencephalography (EEG) technology to decode aesthetic brain responses to music in real-time, to generate listener ratings for the songs they listen to on music streaming services like Spotify. The goal was to enhance user feedback and rating processes in music recommendation systems by integrating bio-personalized features of musical aesthetic appreciation.
+
+**Methodology:** The researchers used a commercial wireless EEG device to record brain activity from five listeners as they evaluated music. The brain activity data was then analyzed to identify patterns that reliably reflected the listeners' evaluations. These patterns were incorporated into a machine learning model, specifically an Extreme 
+Learning Machine (ELM), to translate specific signal descriptors from the EEG data into a single score expressing the listener's appraisal of the music. The system could be personalized with a small amount of training and operated with a negligible amount of delay.
+
+**Findings:** The study found that a robust set of brain activity characteristics can reliably reflect a listener's appraisal of music. The results also demonstrated the effectiveness of ELMs in the regression task of mapping brain activity patterns to subjective music evaluations.
+
+**Implications:** The findings suggest that it is possible to use brain activity data to create more personalized and accurate music recommendations. They also indicate the feasibility of conducting experiments about music perception in real-life situations and integrating brain signal analysis into contemporary technology, such as music streaming services.
+
+**Thematic Analysis:** One common theme from the study is the use of EEG data to understand and predict human responses to music. This highlights the potential of EEG and BCI technology in personalizing and enhancing user experiences in digital services.
+
+**Gaps and Future Research:** The study does not discuss potential limitations or areas for future research. However, potential research directions could involve exploring the effectiveness of this system across a larger and more diverse population, as well as examining its application to other forms of digital media beyond music.
+
+**Conclusion:** The study provides a valuable contribution to the field of music recommendation systems, demonstrating the possibility of using BCI technology and machine learning to enhance personalization based on users' brain responses to music. The findings also suggest exciting possibilities for further exploration in the field of neurotechnology and its application in real-world situations.
+
+---
+### <a name="SaS-BCI:-a-new-strategy-to-predict-image-memorability-and-use-mental-imagery"></a>4.3 Research Title: SaS-BCI: a new strategy to predict image memorability and use mental imagery.
+
+**Introduction:** The research in focus, "SaS-BCI: a new strategy to predict image memorability and use mental imagery," examines the application of brainwaves as a unique biometric method for security authentication. This research is relevant to the growing need for advanced security and authentication measures that are difficult to replicate and unique to the individual.
+
+**Researchers:** Fares Yousefi, Hoshang Kolivand & Thar Baker 
+
+**Purpose of the Study:** The authors aimed to address the limitations of existing authentication techniques, such as passwords, pins, and physical biometric data, which can be duplicated or faked. They proposed the use of EEG signals to explore the uniqueness of human brainwaves and presented a new signal acquisition strategy focused on image memorability for authentication purposes.
+
+**Methodology:** The Signal Acquisition Strategy (SaS) for Brain-Computer Interface (BCI) is described in several stages. EEG signals are first collected from participants performing three different tasks. The raw EEG data is then processed to filter out noise and isolate relevant signals. Key features from the EEG signals are extracted using the Power Spectral Density (PSD) method. Finally, these features are used to train a model that can identify or authenticate an individual based on their unique brain signals.
+
+**Findings:** The webpage did not provide specific findings from the study. However, it is mentioned that the accuracy of the model was tested to determine its effectiveness.
+
+**Implications:** The authors argue that brainwave-based authentication is a highly secure biometric method. This is because it is not easily duplicated, and the ID pattern can be changed, addressing some of the shortcomings of existing authentication methods. The use of EEG to test brainwaves for authentication using BCI could potentially revolutionize the field of security and authentication.
+
+**Thematic Analysis:** A common theme in the research is the potential of brainwaves as a secure biometric identification method. The authors discuss the advantages and challenges of brain-based authentication and argue that it holds unique advantages over traditional biometrics, such as fingerprints, face, or iris scans.
+
+**Gaps and Future Research:** While the authors propose a new method for using brain signals for authentication, more research is needed to refine the technology and address potential challenges. The webpage suggests that future research could focus on improving the classification accuracy of the model.
+
+**Conclusion:** The research reviewed suggests that brainwave-based authentication could provide a highly secure method for identification. The authors propose a new signal acquisition strategy focused on image memorability and outline a method for using brain signals for authentication. This research contributes to the field by providing a new perspective on biometric authentication and suggesting future directions for improving the technology.
+
+---
+### <a name="Controlling-a-Robotic-Arm-by-Brainwaves-and-Eye-Movement"></a>4.4 Research Title: Controlling a Robotic Arm by Brainwaves and Eye Movement.
+
+**Introduction:** The research titled "Brain Fingerprinting Field Studies Comparing P300-MERMER and P300 Brainwave Responses in the Detection of Concealed Information" explores the efficacy of brain fingerprinting techniques in revealing concealed information. 
+
+**Researchers:** Cristian-Cezar Postelnicu, Doru Talaba & Madalina-Ioana Toma 
+
+**Purpose of the Study:** This research aims to develop a system for controlling a robotic arm using two types of bioelectrical signals, Electrooculography (EOG) and Electroencephalography (EEG). The system is intended to aid people with severe neuromuscular disorders, such as brainstem stroke, brain or spinal cord injury, cerebral palsy, multiple sclerosis, or amyotrophic lateral sclerosis (ALS).
+
+**Methodology:** The study proposes two experimental approaches or paradigms for controlling the robotic arm: the EOG-based Control Paradigm and the EOG-EEG-based Control Paradigm. In the first paradigm, EOG signals alone are used to guide the position of the robotic arm and control the end-effector. The second approach combines EOG and EEG signals; EOG signals position the robotic arm, while EEG signals control the end-effector. The researchers conducted an experiment with eight subjects to test the accuracy and comfort of both paradigms.
+
+**Findings:** Preliminary results indicate that the EOG-EEG-based paradigm was less tiring for the subjects, and it showed a higher accuracy rate for both selection commands and eye closure events. The research is ongoing, and the decision on which paradigm to adopt for the final system will be based on the results obtained from the preliminary tests and considerations of user fatigue.
+
+**Implications:** This research could lead to the development of a fully functional system that allows disabled persons to control a robotic arm attached to a wheelchair, thereby assisting them in performing daily tasks such as feeding themselves or manipulating objects in their environment.
+
+**Thematic Analysis:** The common theme across this research is the integration of bioelectrical signals (EOG and EEG) to control a robotic arm, with the ultimate goal of aiding people with severe neuromuscular disorders. The study is innovative in its use of EOG and EEG signals and provides promising preliminary results, especially with the combined EOG-EEG-based paradigm.
+
+**Gaps and Future Research:** The research is still ongoing and there are areas for improvement and further exploration. Future work will focus on refining the algorithms, increasing the recognition accuracy rates, evolving the current system into an asynchronous one, and integrating new commands. Further tests are also planned to determine the best paradigm for the project.
+
+**Conclusion:** The research presents an innovative approach to assist people with severe neuromuscular disorders by controlling a robotic arm using bioelectrical signals. While the research is still ongoing, preliminary results are promising, especially for the combined EOG-EEG-based paradigm. Future work will focus on refining the system and further tests to determine the optimal paradigm.
+
+---
+### <a name="Brain-fingerprinting-field-studies-comparing-P300-MERMER-and-P300-brainwave-responses-in-the-detection-of-concealed-information"></a>4.5 Research Title: "Brain fingerprinting field studies comparing P300-MERMER and P300 brainwave responses in the detection of concealed information."
+
+**Introduction:** The literature review focuses on a series of studies centered on the use of brain fingerprinting, specifically comparing P300-MERMER and P300 brainwave responses in the detection of concealed information. The relevance of this topic to the broader field of neuroscience and criminal justice is evident in its potential applications for lie detection and memory recall during criminal investigations.
+
+**Researchers:** Lawrence A. Farwell, Drew C. Richardson & Graham M. Richardson 
+
+**Purpose of the Study:** The purpose of the studies is to investigate the use of brain fingerprinting, a technique using neurophysiological responses, to detect concealed information. The studies specifically compare the use of P300 and P300-MERMER responses in detecting the presence or absence of specific information related to real-life events, major crimes, and specialized knowledge.
+
+**Methodology:** The brain fingerprinting technique involves presenting three types of stimuli to the subject: Probes, Targets, and Irrelevants. The subject's brain response to these stimuli is then recorded and analyzed. The studies adhere to a list of scientific standards, including correct equipment and methods for stimulus presentation, data acquisition, and recording; correct electrode placement; availability of sufficient information only known to the perpetrator and investigators; proper division and use of stimuli to isolate the subject's knowledge; and other methodological considerations. For the specific "CIA Real Life Study", information was collected for structuring stimuli through interviews with someone familiar with each subject. The stimuli were presented and data acquired through computerized means.
+
+**Findings:** The studies showed a 0% error rate, indicating no false positives or false negatives were identified during the tests. The statistical confidence in the results was high - 99.9% for P300-MERMER and 99.6% for P300. For the "CIA Real Life Study", the results were correct for all subjects.
+
+**Implications:** The studies highlight the potential of the brain fingerprinting methods in practical use for the criminal justice system and national security, especially given their high accuracy and resistance to countermeasures. The studies also make comparisons with other methods that show significantly higher error rates and lower statistical confidences, emphasizing the superiority of the brain fingerprinting methods.
+
+**Thematic Analysis:** A common theme across these studies is the focus on the use of brain fingerprinting for the detection of concealed information, particularly in relation to real-life events and major crimes. Another consistent finding is the high accuracy and reliability of these methods, as demonstrated by the low error rates and high statistical confidence.
+
+**Gaps and Future Research:** One potential area for future research could be to explore further how these methods can be refined and applied in different contexts beyond the ones studied. For instance, how might brain fingerprinting be adapted for use in other fields, such as psychology or education? Could these methods be combined with other neurological or behavioral measures to enhance their effectiveness?
+
+**Conclusion:** The reviewed studies demonstrate the potential of brain fingerprinting methods, particularly P300 and P300-MERMER, for detecting concealed information related to real-life events and crimes. The high accuracy and reliability of these methods, as well as their resistance to countermeasures, underscore their potential utility in the criminal justice system and national security. Future research should continue to explore and refine these methods for broader applications.
+
+## <a name="Discussion"></a>5. Discussion
+
+The preceding research reviewed in this paper elucidates the potential use of brainwaves in the fields of biometric authentication, assistive technologies, and criminal justice. Each of these applications harnesses unique aspects of our understanding of brain function, presenting significant opportunities for technological advancement and providing avenues for further research.
+
+The first study, "SaS-BCI: a new strategy to predict image memorability and use mental imagery," highlights the potential for brainwaves as a secure biometric identification method. It acknowledges that brainwave-based authentication can offer unique advantages over traditional biometrics such as fingerprints, face, or iris scans. One of the most notable implications of this research is the potential for brainwave-based authentication to revolutionize the field of security and authentication, providing a highly secure method of identification that is not easily duplicated and can be changed as needed.
+
+The second study, "Controlling a Robotic Arm by Brainwaves and Eye Movement," presents an innovative approach to assist people with severe neuromuscular disorders. The study illustrates the integration of two types of bioelectrical signals, Electrooculography (EOG) and Electroencephalography (EEG), to control a robotic arm, which could significantly improve the quality of life for individuals with such disorders​1​. Preliminary results from this research indicate promising outcomes, especially with the combined EOG-EEG-based paradigm. However, the research is still ongoing, and further refinements and tests are planned to optimize the system.
+
+Lastly, the third study titled "Brain fingerprinting field studies comparing P300-MERMER and P300 brainwave responses in the detection of concealed information" explores the use of brain fingerprinting, a technique using neurophysiological responses, for the detection of concealed information, specifically comparing P300 and P300-MERMER responses. This research is particularly relevant to the criminal justice system, where accurate and reliable detection of concealed information can have significant implications. The studies showed high accuracy and reliability, indicating the potential utility of these methods in practical use.
+
+Each of these studies provides a glimpse into the diverse applications of brainwave technology and AI. They illustrate the breadth of possibilities and also highlight the need for further research in each area. For instance, while brainwave-based authentication offers unique advantages, more research is needed to refine the technology and address potential challenges. Similarly, the study on controlling a robotic arm using brainwaves and eye movements is still in progress, and future work will focus on refining the algorithms, increasing the recognition accuracy rates, and integrating new commands. In the field of criminal justice, the studies reviewed demonstrate the potential of brain fingerprinting methods, but there could be more exploration on how these methods can be refined and applied in different contexts beyond those studied.
+
+The implications of these findings extend far beyond the specific fields in which they were investigated. The potential for brainwave technology and AI to revolutionize biometric security, assistive technologies, and criminal justice demonstrates the broader impact these advancements could have on society as a whole. Each study underscores the importance of continued research and exploration in this field, offering a glimpse into the future of AI and neuroscience.
+
+## <a name="Conclusion"></a>6. Conclusion
+
+The interplay between brainwaves and artificial intelligence offers a frontier of research that is rapidly expanding and holds significant potential for revolutionizing various fields. From the exploration of using brainwave data for secure biometric authentication to controlling robotic aids for those with neuromuscular disorders, and even to detecting concealed information for criminal investigations, the applications of this intersection are both wide-ranging and impactful.
+
+The studies reviewed in this paper highlight the innovative uses of brainwaves and artificial intelligence in diverse areas, underscoring the importance of this research topic. Each of these studies not only contributes valuable knowledge to its respective field but also opens up new avenues for further exploration and refinement. The continuous advancement in this area promises to bring about profound changes in how we approach security, assistive technologies, and criminal justice, among others.
+However, as we chart this new territory, it is crucial to remember that each of these applications presents its own set of unique challenges and considerations. Further research is required to refine these technologies, address potential challenges, and explore broader applications. The future of AI and neuroscience is indeed promising, but it demands rigorous inquiry, critical thinking, and a commitment to ethical considerations.
+
+In conclusion, the exploration of brainwaves and artificial intelligence is a dynamic and evolving field of research. The potential applications are vast and the implications far-reaching, touching on sectors such as security, healthcare, and criminal justice. As we continue to delve into this intriguing intersection of technology and neuroscience, we look forward to the advancements and insights that the future will undoubtedly bring.
+
+## <a name="References"></a>7. References
+
+1. Farwell, L.A., Richardson, D.C. & Richardson, G.M. (2013). Brain fingerprinting field studies comparing P300-MERMER and P300 brainwave responses in the detection of concealed information. Cognitive Neurodynamics, 7, 263–299. https://doi.org/10.1007/s11571-012-9230-0
+
+2. Postelnicu, CC., Talaba, D., Toma, MI. (2011). Controlling a Robotic Arm by Brainwaves and Eye Movement. In: Camarinha-Matos, L.M. (eds) Technological Innovation for Sustainability. DoCEIS 2011. IFIP Advances in Information and Communication Technology, vol 349. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-19170-1_17
+
+3. Yousefi, F., Kolivand, H. & Baker, T. (2021). SaS-BCI: a new strategy to predict image memorability and use mental imagery as a brain-based biometric authentication. Neural Computing & Applications, 33, 4283–4297. https://doi.org/10.1007/s00521-020-05247-1
+
+4. Kalaganis, F., Adamos, D.A., Laskaris, N. (2016). A Consumer BCI for Automated Music Evaluation Within a Popular On-Demand Music Streaming Service “Taking Listener’s Brainwaves to Extremes”. In: Iliadis, L., Maglogiannis, I. (eds) Artificial Intelligence Applications and Innovations. AIAI 2016. IFIP Advances in Information and Communication Technology, vol 475. Springer, Cham. https://doi.org/10.1007/978-3-319-44944-9_37
+
+5. Argento, E., Papagiannakis, G., Baka, E. et al. (2017). Augmented Cognition via Brainwave Entrainment in Virtual Reality: An Open, Integrated Brain Augmentation in a Neuroscience System Approach. Augmented Human Research, 2, 3. https://doi.org/10.1007/s41133-017-0005-3
