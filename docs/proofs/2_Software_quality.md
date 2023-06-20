@@ -38,18 +38,16 @@ In my project, I implemented three different ways of quality assurance: [Backend
 
 Jest is a JavaScript testing framework that allows you to ensure your JavaScript code is working as expected. It's used for unit and integration testing, and it's a great way to validate your code is working properly. I used Jest for my backend testing, specifically for the user microservice. Here's an example of the testing output:
 
-(../images/jest_tests.png)
+![Jest tests](../images/jest_tests.png)
 
 ### End-to-End testing with Cypress<a name="end-to-end-testing-with-cypress"></a>
 
 End-to-end testing is crucial for ensuring that your application is working properly from start to finish. It tests your application in a way that mimics real user behavior, ensuring that all parts of your application are working together properly. I used Cypress for my end-to-end testing on the frontend. Here's an example of a test case:
 
-```
-gif of the test here
-```
+![Login and adding manga to mangalist flow](../images/cypress.gif)
 
 ### Static code analysis with SonarCloud<a name="static-code-analysis-with-sonarcloud"></a>
 
 SonarCloud is a cloud service offered by SonarSource for performing automatic reviews with static analysis of code to detect bugs, code smells and security vulnerabilities. In my project, SonarCloud was used to analyze the codebase and provide insights about the code quality.
 
-(../images/sonar.png)
+1[Sonar proof](../images/sonar.png)
