@@ -8,7 +8,7 @@ As an office worker, when you need to find a colleague, the process can be frust
 
 Imagine it's urgent, you need to speak with John from the finance department. You're not sure if he's in today, or even if he's free. So, you take the elevator to the floor where John usually sits. You look around, but he's not at his desk. You ask a few people nearby, they aren't sure if John is in today or if he's in a meeting. You wait around, hoping to catch him returning to his desk, or you may need to ask someone for John's number and wait for a response to your message.
 
-![Existing Business Process Without App](WithoutTrackIO.drawio.png)
+![Existing Business Process Without App](../images/WithoutTrackIO.drawio.png)
 
 This process can take anywhere from 15 to 25 minutes, and that's assuming John responds quickly or is even in the office. 
 
@@ -18,7 +18,7 @@ Now, let's consider the same scenario with our office communication app in place
 
 You need to find John urgently. Instead of wandering around, you open the app. You search for John and his profile pops up. You can see he's in the office today and is currently available. You send him a quick "I am looking for you" message via the app. A moment later, the app provides you with John's current location. You walk straight there and have the discussion you need. No more searching, no more waiting.
 
-![Proposed Business Process With App](WithTrackIO.drawio.png)
+![Proposed Business Process With App](../images/WithTrackIO.drawio.png)
 
 This new approach typically takes just 2-5 minutes. It's a significant improvement and, moreover, it reduces the uncertainty and anxiety of not knowing whether you'll be able to connect with the colleague you need.
 

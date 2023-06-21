@@ -160,8 +160,8 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 On the front-end side, I worked with React, a popular JavaScript library for building user interfaces. My application allows users to browse through the first 10 chapters of a selected manga, making for an engaging reading experience. Users can also add manga to their reading list, contributing to the app's interactivity and personalization. 
 
 ![Manga Selection](../images/mangaSelection.png)
-![Manga Reading](../images/mangaReading.png)
-![Manga List](../images/mangaList.png)
+![Manga Details](../images/mangaDetails.png)
+![Manga Chapter](../images/mangaChapter.png)
 
 To conclude, my achievements showcase a strong grasp of full-stack development. From designing and building an application's architecture to implementing user-facing features, I have demonstrated proficiency in the full stack. The resulting application presents a user-friendly interface and a robust backend system that integrates modern technologies such as Docker and microservices.
 

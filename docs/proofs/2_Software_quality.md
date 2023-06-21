@@ -50,4 +50,4 @@ End-to-end testing is crucial for ensuring that your application is working prop
 
 SonarCloud is a cloud service offered by SonarSource for performing automatic reviews with static analysis of code to detect bugs, code smells and security vulnerabilities. In my project, SonarCloud was used to analyze the codebase and provide insights about the code quality.
 
-1[Sonar proof](../images/sonar.png)
+![Sonar proof](../images/sonar.png)
