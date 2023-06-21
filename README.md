@@ -21,30 +21,33 @@ by Uros A. Colovic
 
 # <a name="intro"></a>Intro
 
-This portfolio will guide you through several snippets of my work during the [period of time]. This repository will act as a summary of my work in this period, along with explanations of how I proved a certain set of learning outcomes.
+This portfolio will guide you through several snippets of my work during the third semester of my education at Fontys University. This repository will act as a summary of my work in this period, along with explanations of how I proved a certain set of learning outcomes.
 
-Down below, I will provide you with the learning outcomes as they are at the time of writing ([date]), with the explanation of each outcome. This will be followed with a table containing all of my work proving the outcomes.
+Down below, I will provide you with the learning outcomes as they are at the time of writing (19/06/2023), with the explanation of each outcome. This will be followed with a table containing all of my work proving the outcomes.
 
 # <a name="learning-outcomes"></a>Learning Outcomes
 
-For a complete list of the learning outcomes and their explanation as of [date], see here.
+For a complete list of the learning outcomes and their explanation, see [here](./dict/learning_outcomes.md).
 
 # <a name="proof"></a>Proof
 
 Below is a table containing all of my proof, with a link to further explanation.
 
-| Explanation | Type | Learning Outcome | Link |
-| --- | --- | --- | --- |
-| [Description of Proof 1] | [Type of Proof 1] | [Associated Learning Outcome 1] | [Link 1] |
-| [Description of Proof 2] | [Type of Proof 2] | [Associated Learning Outcome 2] | [Link 2] |
-| [Description of Proof 3] | [Type of Proof 3] | [Associated Learning Outcome 3] | [Link 3] |
-| ... | ... | ... | ... |
+| Learning outcome | proof |
+|---|---|
+| Web Application | [proof](./docs/proofs/1_Web_application.md) |
+| Sofware Quality | [proof](./docs/proofs/2_Code_quality.md) |
+| Agile method | [proof](./docs/proofs/3_Agile_method.md) |
+| CI/CD | [proof](./docs/proofs/4_CI_CD.md) |
+| Cultural differences and ethics | [proof](./docs/proofs/5_Cultural_differences_and_ethics.md) |
+| Requirements and design | [proof](./docs/proofs/6_Requirements_and_design.md) |
+| Business processes | [proof](./docs/proofs/7_Business_processes.md) |
 
 # <a name="self-assessment"></a>Self-assessment
 
 Below, I will provide the reader with a self-assessment. In this assessment, I will assess my own qualities and explain how I think I qualify for the given learning outcome (as they are laid out here).
 
-The proficiency rating I will give myself are as they are described on [source] on [date]. The rating goes from 'Undefined', to 'Orienting', to 'Beginning', 'Proficient', and finally to 'Advanced', on a scale of 0 to 5.
+The proficiency rating I will give myself are as they are described [here](https://fhict.instructure.com/courses/12993/outcomes). The rating goes from 'Undefined', to 'Orienting', to 'Beginning', 'Proficient', and finally to 'Advanced'.
 
 ---
 
@@ -109,7 +112,7 @@ I have a proficient understanding of CI/CD, key for efficient and high-quality s
 Proficient
 
 **Explanation:**  
-Please look at ![Cultural Differences and Ethics](./proofs/5_Cultural_differences_and_ethics.md)
+Please look at [Cultural Differences and Ethics](./docs/proofs/5_Cultural_differences_and_ethics.md)
 
 ---
 
@@ -122,7 +125,7 @@ Please look at ![Cultural Differences and Ethics](./proofs/5_Cultural_difference
 Proficient
 
 **Explanation:**  
-Please look at ![Requirements and Design](./proofs/6_Requirements_and_design.md)
+Please look at [Requirements and Design](./docs/proofs/6_Requirements_and_design.md)
 ---
 
 ## <a name="business-processes"></a>Business Processes
@@ -134,7 +137,7 @@ Please look at ![Requirements and Design](./proofs/6_Requirements_and_design.md)
 Proficient
 
 **Explanation:**  
-Please look at ![Business Processes](./proofs/7_Business_processes.md)
+Please look at [Business Processes](./docs/proofs/7_Business_processes.md)
 
 ---
 
