@@ -54,10 +54,10 @@ The proficiency rating I will give myself are as they are described on [source] 
 "You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques."
 
 **Proficiency Rating:**  
-4
+Proficient
 
 **Explanation:**  
-TBD
+My application provides an intuitive user experience. Building a manga browsing app with React, Node.js, and Express.js highlights my full-stack development skills and my understanding of the entire development cycle. Implementation of a microservices architecture and Docker for backend development, alongside the use of React for frontend, exhibits my proficiency in building user-friendly and scalable applications. 
 
 ---
 
@@ -67,10 +67,10 @@ TBD
 "Use software tooling and methodology that continuously monitors and improve the software quality during software development."
 
 **Proficiency Rating:**  
-4
+Proficient
 
 **Explanation:**  
-TBD
+Using tools such as Jest, Cypress, and SonarCloud, I've advanced my capabilities in ensuring high-quality code throughout development. I have a comprehensive understanding of both objective and subjective code evaluations and consistently apply these in my projects. Automated checks with Jest, Cypress, and SonarCloud ensure code quality in my projects.
 
 ---
 
@@ -80,10 +80,10 @@ TBD
 "Choose and implement the most suitable agile software development method for your software project."
 
 **Proficiency Rating:**  
-5
+Advanced
 
 **Explanation:**  
-TBD
+I have an advanced understanding of Agile, which I've used to optimize both group and individual project management. With Jira, I've effectively managed tasks, sprints, and tracked progress in a manner that promotes Agile methodologies. Through weekly standups, sprint kick-offs, sprint reflections, and detailed task management, I've showcased the practical application of Agile.
 
 ---
 
@@ -93,10 +93,10 @@ TBD
 "Design and implement a (semi)automated software release process that matches the needs of the project context."
 
 **Proficiency Rating:**  
-4
+Proficient
 
 **Explanation:**  
-TBD
+I have a proficient understanding of CI/CD, key for efficient and high-quality software development. I have practical experience with backend testing, ensuring automatic building and testing with every code change. Using GitHub Actions, I've established CI/CD pipelines for automatic execution of tests.
 
 ---
 
@@ -106,10 +106,10 @@ TBD
 "Recognize and take into account cultural differences between project stakeholders and ethical aspects in software development."
 
 **Proficiency Rating:**  
-4
+Proficient
 
 **Explanation:**  
-TBD
+Please look at ![Cultural Differences and Ethics](./proofs/5_Cultural_differences_and_ethics.md)
 
 ---
 
@@ -119,11 +119,10 @@ TBD
 "Analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques."
 
 **Proficiency Rating:**  
-4
+Proficient
 
 **Explanation:**  
-TBD
-
+Please look at ![Requirements and Design](./proofs/6_Requirements_and_design.md)
 ---
 
 ## <a name="business-processes"></a>Business Processes
@@ -132,10 +131,10 @@ TBD
 "Understand the software development and management practices in the context of the business processes of an organization."
 
 **Proficiency Rating:**  
-4
+Proficient
 
 **Explanation:**  
-TBD
+Please look at ![Business Processes](./proofs/7_Business_processes.md)
 
 ---
 
@@ -145,7 +144,7 @@ TBD
 "Demonstrate professional and ethical behavior in a multicultural and multidisciplinary environment."
 
 **Proficiency Rating:**  
-4
+Advanced
 
 **Explanation:**  
-TBD
+I have consistently demonstrated a professional manner during software development. My ability to track work progress and communicate effectively with the team has been vital in our collaborative efforts. I've sought and applied stakeholder feedback, advised on optimal technical and design choices, and taken the initiative in my learning and professional development.

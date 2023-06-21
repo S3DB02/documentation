@@ -18,7 +18,7 @@ Now, let's consider the same scenario with our office communication app in place
 
 You need to find John urgently. Instead of wandering around, you open the app. You search for John and his profile pops up. You can see he's in the office today and is currently available. You send him a quick "I am looking for you" message via the app. A moment later, the app provides you with John's current location. You walk straight there and have the discussion you need. No more searching, no more waiting.
 
-![Proposed Business Process With App](../images/WithTrackIO.drawio.png)
+![Proposed Business Process With App](../images/WTrackIO.drawio.png)
 
 This new approach typically takes just 2-5 minutes. It's a significant improvement and, moreover, it reduces the uncertainty and anxiety of not knowing whether you'll be able to connect with the colleague you need.
 
