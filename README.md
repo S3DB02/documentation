@@ -83,7 +83,7 @@ Using tools such as Jest, Cypress, and SonarCloud, I've advanced my capabilities
 "Choose and implement the most suitable agile software development method for your software project."
 
 **Proficiency Rating:**  
-Advanced
+Proficient
 
 **Explanation:**  
 I have an advanced understanding of Agile, which I've used to optimize both group and individual project management. With Jira, I've effectively managed tasks, sprints, and tracked progress in a manner that promotes Agile methodologies. Through weekly standups, sprint kick-offs, sprint reflections, and detailed task management, I've showcased the practical application of Agile.
@@ -147,7 +147,7 @@ Please look at [Business Processes](./docs/proofs/7_Business_processes.md)
 "Demonstrate professional and ethical behavior in a multicultural and multidisciplinary environment."
 
 **Proficiency Rating:**  
-Advanced
+Ptoficient
 
 **Explanation:**  
 I have consistently demonstrated a professional manner during software development. My ability to track work progress and communicate effectively with the team has been vital in our collaborative efforts. I've sought and applied stakeholder feedback, advised on optimal technical and design choices, and taken the initiative in my learning and professional development.
